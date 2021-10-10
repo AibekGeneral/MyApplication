@@ -5,11 +5,11 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/news"
+            android:id="@+id/newss"
             android:icon="@drawable/news"
             android:title="Жаңалықтар" />
         <item
-            android:id="@+id/enter"
+            android:id="@+id/enterr"
             android:icon="@drawable/enter"
             android:title="Кіру" />
         <item

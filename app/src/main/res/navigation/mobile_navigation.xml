@@ -16,10 +16,14 @@
         android:name="com.example.myapplication.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/enterFragment"
+        android:name="com.example.myapplication.ui.enter.EnterFragment"
+        android:label="Кіру"
+        tools:layout="@layout/fragment_enter"/>
+
+    <action
+        android:id="@+id/action_enterFragment"
+        app:destination="@id/enterFragment"
+        />
 </navigation>
