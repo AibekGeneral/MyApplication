@@ -10,12 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
 
+        <activity android:name=".ui.enter.RegisterActivity"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".ui.enter.SecretActivity"
+            android:label="Құпия сөзді ұмыттыңызба?"
+            android:theme="@style/Theme.MyApplication.NoActionBar"></activity>
         <activity
             android:name=".ui.Play"
             android:label="Аудио жаңалықтар"
             android:parentActivityName=".ui.Play" />
-
-
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
