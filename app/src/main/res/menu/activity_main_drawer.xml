@@ -19,7 +19,7 @@
         <item
             android:id="@+id/communication"
             android:icon="@drawable/communication"
-            android:title="Байланыghсg" />
+            android:title="Байланыс" />
         <item
             android:id="@+id/publicity"
             android:icon="@drawable/publicity"

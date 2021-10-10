@@ -2,8 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/play"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:icon="@drawable/play"
+        app:showAsAction="always"
+        android:title="TODO"/>
+    <item
+        android:id="@+id/video"
+        android:orderInCategory="100"
+        android:icon="@drawable/video"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <item
+        android:id="@+id/money"
+        android:orderInCategory="100"
+        android:icon="@drawable/money"
+        app:showAsAction="always"
+        android:title="TODO"/>
 </menu>
