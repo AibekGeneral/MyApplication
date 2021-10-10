@@ -9,24 +9,24 @@
             android:icon="@drawable/news"
             android:title="Жаңалықтар" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/enter"
+            android:icon="@drawable/enter"
             android:title="Кіру" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/famous"
+            android:icon="@drawable/famous"
             android:title="Таңдаулы" />
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/communication"
+            android:icon="@drawable/communication"
             android:title="Байланыс" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/publicity"
+            android:icon="@drawable/publicity"
             android:title="Жарнама" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
             android:title="Баптаулар" />
     </group>
 </menu>
