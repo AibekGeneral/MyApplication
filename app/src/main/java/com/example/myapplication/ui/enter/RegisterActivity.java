@@ -23,6 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText editText1;
     private EditText editText2;
     private Button button;
+    private ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,14 @@ public class RegisterActivity extends AppCompatActivity {
         editText1 = (EditText) findViewById(R.id.emailRegister1);
         editText2 = (EditText) findViewById(R.id.quriaRegister1);
         button = (Button) findViewById(R.id.button3);
+        image = (ImageView) findViewById(R.id.image);
+
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

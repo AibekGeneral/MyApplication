@@ -3,13 +3,11 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Menu;
 
-import com.example.myapplication.ui.Money;
+import com.example.myapplication.ui.menu_money.Money;
 import com.example.myapplication.ui.Play;
 import com.example.myapplication.ui.Video;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
